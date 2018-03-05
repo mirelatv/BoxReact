@@ -6,6 +6,9 @@
     border: 3px solid  black;
    
 }
+#texto{
+  text-align: center;
+}
 
 .flor{
     width: 100px;

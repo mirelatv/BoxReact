@@ -17,7 +17,7 @@
   <script src="https://unpkg.com/react@15/dist/react.js"></script>
   <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
   <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-  <title>Grace Hooper</title>
+  <title>box</title>
 </head>
 
 <body>
@@ -64,7 +64,7 @@ const Box = props=>{
 
   <div  style={boxCss} className="box">
   
-  <p className="center-align" style={Font}>{props.texto}</p>
+  <p id="texto"className={Font}>{props.texto}</p>
   <img  className="flor"src={props.url} /> 
   
   </div>
