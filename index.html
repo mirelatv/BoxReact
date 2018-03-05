@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- importamos unos estilos -->
+  <!-- TODO: link base.css -->
+  <script src="https://unpkg.com/react@15/dist/react.js"></script>
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <title>Grace Hooper</title>
+</head>
+
+<body>
+    <!-- NUESTRO CONTAINER GENERAL -->
+  <div id="react-container" class="section">
+
+
+    <div id="root" class="row"></div>
+    
+
+  </div>
+  <!--REACT-->
+
+
+
+
+  <script type="text/babel">
+
+
+  
+//cambiar  fondo  aleatoriamente.
+
+$( function RamdomBox(){
+    let color = '#';
+    let arrColor = [ 'FF0000','FFFF00', '808000', '800000' ,'FF7F50','228B22'];
+    let colorActual = '#A6F2E8';
+    
+    color += colorCodes[Math.floor(Math.random() * colorCodes.length-1)];
+    
+    return color
+  }
+    const boxColor= {backgroundColor: RamdomBox()
+
+
+/*COMPONENET*/
+const Box = props=>{
+ 
+ return (
+
+  <div  style={boxColor} id="Textbox" className="center-align Textbox">{props.texto}</div>
+  
+
+)
+
+}
+
+ReactDOM.render(
+   
+ <Box texto =" Caja Ramdom" />,document.getElementById('root')
+);
+
+
+
+</script>
+
+</body>
+
+</html>
