@@ -1,9 +1,15 @@
 .box{
     height: 200px;
-    width: 400px;
+    width: 300px;
     margin-left: 35%;
     margin-top: 20%;
+    border: 3px solid  black;
    
+}
+
+.flor{
+    width: 100px;
+    margin-left: 35%;
 }
 
 
